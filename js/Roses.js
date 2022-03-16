@@ -73,10 +73,6 @@ function gameStart () {
     obj.addComponent(shp);
     objects.push(obj);
 
-    setInterval(() => {
-        console.log(Input.mouse.position);
-    })
-
     tick();
 }
 
