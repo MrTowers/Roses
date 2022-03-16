@@ -1,0 +1,115 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "c:\\Users\\dawid\\Desktop\\Folder Dejwa\\ucze sie w prgoramming\\bang",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2022-03-16 19:37:34",
+            "filesum": 14,
+            "codesum": 303,
+            "commentsum": 7,
+            "blanksum": 57,
+            "statistics": {
+                ".js": {
+                    "code": 291,
+                    "comment": 7,
+                    "blank": 57
+                },
+                ".html": {
+                    "code": 12,
+                    "comment": 0,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "index.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "js\\core\\math\\Color.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "js\\core\\math\\Transform.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "js\\core\\math\\Vector2.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 14,
+                    "comment": 5,
+                    "filename": "js\\core\\objects\\Component.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "js\\core\\objects\\DisplayObject.js"
+                },
+                {
+                    "blank": 13,
+                    "code": 56,
+                    "comment": 2,
+                    "filename": "js\\core\\objects\\GameObject.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "js\\core\\rendering\\Camera.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "js\\core\\rendering\\Shape.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "js\\core\\rendering\\Sprite.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "js\\core\\utils\\Load.js"
+                },
+                {
+                    "filename": "js\\game\\assets\\textures\\blocks\\grass.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 16,
+                    "code": 67,
+                    "comment": 0,
+                    "filename": "js\\Roses.js"
+                },
+                {
+                    "filename": "README.md",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                }
+            ]
+        }
+    ]
+}

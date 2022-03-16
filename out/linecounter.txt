@@ -1,0 +1,32 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2022-03-16 19:37:34
+count workspace : c:\Users\dawid\Desktop\Folder Dejwa\ucze sie w prgoramming\bang
+total files : 14
+total code lines : 303
+total comment lines : 7
+total blank lines : 57
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |            .js|            291|              7|             57|     96|
+   |          .html|             12|              0|              0|    4.0|
+   -------------------------------------------------------------------------
+index.html, code is 12, comment is 0, blank is 0.
+js\core\math\Color.js, code is 17, comment is 0, blank is 3.
+js\core\math\Transform.js, code is 7, comment is 0, blank is 1.
+js\core\math\Vector2.js, code is 25, comment is 0, blank is 6.
+js\core\objects\Component.js, code is 14, comment is 5, blank is 5.
+js\core\objects\DisplayObject.js, code is 14, comment is 0, blank is 3.
+js\core\objects\GameObject.js, code is 56, comment is 2, blank is 13.
+js\core\rendering\Camera.js, code is 13, comment is 0, blank is 3.
+js\core\rendering\Shape.js, code is 32, comment is 0, blank is 2.
+js\core\rendering\Sprite.js, code is 28, comment is 0, blank is 3.
+js\core\utils\Load.js, code is 18, comment is 0, blank is 2.
+js\game\assets\textures\blocks\grass.png, it is a binary file.
+js\Roses.js, code is 67, comment is 0, blank is 16.
+README.md, it is a binary file.
+===============================================================================
