@@ -1,4 +1,5 @@
-import { MAINCAMERA } from "../../Roses.js";
+import { canvas, MAINCAMERA } from "../../Roses.js";
+import { Vector2 } from "../math/Vector2.js";
 import { Component } from "./Component.js";
 
 export class DisplayObject extends Component {
@@ -7,10 +8,10 @@ export class DisplayObject extends Component {
     }
 
     _gRP () {
-        return this.gameObject.position.add(MAINCAMERA.getPosition());
+        return this.gameObject.getPosition().add(MAINCAMERA.getPosition().add(new Vector2(canvas.width / 2, canvas.height / 2)));
     }
 
     _gRS () {
-        return this.gameObject.scale.clone();
+        return this.gameObject.getScale();
     }
 }
