@@ -26,7 +26,10 @@ export class Vector2 {
 
     normalize () {
         let mag = this.mag();
-        return new Vector2(this.x / mag, this.y / mag);
+        let v = new Vector2(this.x / mag, this.y / mag);
+        if (isNaN(v.x)) v.x = 0;
+        if (isNaN(v.y)) v.y = 0;
+        return v;
     }
 
     angle () {

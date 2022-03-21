@@ -1,7 +1,7 @@
-import { textures } from "../../Roses.js";
+import { audios, textures } from "../../Roses.js";
 
 export class Load {
-    static image (src = "", name = "") {
+    static image(src = "", name = "") {
         src = `js/game/assets/${src}`;
         return new Promise((res, rej) => {
             let img = new Image();
@@ -16,5 +16,12 @@ export class Load {
             });
             img.src = src;
         });
+    }
+
+    static audio(src = "", name = "") {
+        src = `js/game/assets/${src}`;
+        new Audio(src);
+        audios[name] = src;
+        console.log(`${src} loaded`);
     }
 }

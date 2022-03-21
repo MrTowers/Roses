@@ -11,7 +11,7 @@ export class Sprite extends DisplayObject {
     render () {
         if (this.image) {
             if (this.image.width) {
-                console.log("redner")
+                //console.log("redner")
                 let pos = this._gRP();
                 let scale = this._gRS();
                 scale.x *= this.image.width;
