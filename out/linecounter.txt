@@ -85,7 +85,7 @@ index.html, code is 12, comment is 0, blank is 0.
 js\core\math\Color.js, code is 17, comment is 0, blank is 3.
 js\core\math\Transform.js, code is 7, comment is 0, blank is 1.
 js\core\math\Vector2.js, code is 44, comment is 0, blank is 11.
-js\core\objects\Component.js, code is 14, comment is 5, blank is 5.
+js\core\objects\Componedwnt.js, code is 14, comment is 5, blank is 5.
 js\core\objects\DisplayObject.js, code is 14, comment is 0, blank is 3.
 js\core\objects\GameObject.js, code is 56, comment is 2, blank is 13.
 js\core\rendering\Camera.js, code is 13, comment is 0, blank is 3.
