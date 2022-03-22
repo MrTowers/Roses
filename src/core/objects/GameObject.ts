@@ -3,6 +3,9 @@ import { Vector2 } from "../math/Vector2.js";
 import { Component } from "./Component.js";
 
 export class GameObject {
+    tag: string;
+    components: Component[];
+    transform: Transform;
     constructor () {
         this.tag = "";
         this.components = [];
@@ -29,7 +32,7 @@ export class GameObject {
     removeComponentByTag (tag = "") {
         for (let i in this.components) {
             if (this.components[i].tag == tag) {
-                this.components.splice(i, 1);
+                this.components.splice(Number(i), 1);
             }
         }
     }

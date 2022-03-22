@@ -3,6 +3,9 @@ import { Color } from "../math/Color.js";
 import { DisplayObject } from "../objects/DisplayObject.js";
 
 export class Shape extends DisplayObject {
+    points: number[][];
+    filled: boolean;
+    color: Color;
     constructor(points = [[0, 0]]) {
         super();
         this.points = points;

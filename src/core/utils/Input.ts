@@ -1,9 +1,11 @@
 import { Vector2 } from "../math/Vector2.js";
 
 export class Input {
-    static keys = {};
-    static keyEvents = [];
+    static keys: any = {};
+    static keyEvents: any[] = [];
     static KeyEvent = class {
+        key: string;
+        callback: any;
         constructor (key = "", callback = () => {}) {
             this.key = key;
             this.callback = callback;

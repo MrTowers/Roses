@@ -3,6 +3,7 @@ import { Vector2 } from "../math/Vector2.js";
 import { DisplayObject } from "../objects/DisplayObject.js";
 
 export class Sprite extends DisplayObject {
+    image: HTMLImageElement;
     constructor () {
         super();
         this.image = new Image();

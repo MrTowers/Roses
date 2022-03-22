@@ -33,8 +33,8 @@ document.body.style.overflow = "hidden";
 export let delta = 0;
 let lasttime = performance.now();
 export const objects = [];
-export const textures = {};
-export const audios = {};
+export const textures: any = {};
+export const audios: any = {};
 
 function calcDelta () {
     let now = performance.now();
