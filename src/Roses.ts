@@ -11,7 +11,7 @@ import { Load } from "./core/utils/Load.js";
 
 export const MAINCAMERA = new Camera();
 export const canvas = document.createElement("canvas");
-export const ctx = canvas.getContext("2d");
+export const ctx = canvas.getContext("2d")!;
 
 function resize () {
     canvas.width = window.innerWidth;
@@ -26,8 +26,8 @@ resize();
 canvas.style.backgroundColor = "black";
 document.body.appendChild(canvas);
 
-document.body.style.padding = 0;
-document.body.style.margin = 0;
+document.body.style.padding = "0px";
+document.body.style.margin = "0px";
 document.body.style.overflow = "hidden";
 
 export let delta = 0;
