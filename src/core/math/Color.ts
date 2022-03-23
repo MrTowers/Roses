@@ -15,10 +15,22 @@ export class Color {
     }
 
     static black () {
-        return new Color(0, 0, 0, 1);
+        return new Color(0, 0, 0);
     }
 
     static white () {
-        return new Color(255, 255, 255, 1);
+        return new Color(255, 255, 255);
+    }
+
+    static red () {
+        return new Color(255, 0, 0);
+    }
+
+    static blue () {
+        return new Color(0, 0, 255);
+    }
+
+    static green () {
+        return new Color(0, 255, 0);
     }
 }
