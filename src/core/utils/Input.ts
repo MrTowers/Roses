@@ -1,5 +1,11 @@
 import { Vector2 } from "../math/Vector2.js";
 
+interface IMouse {
+    position: Vector2;
+    buttonEvents: any[];
+    buttons: any;
+}
+
 export class Input {
     static keys: any = {};
     static keyEvents: any[] = [];
@@ -11,7 +17,7 @@ export class Input {
             this.callback = callback;
         }
     }
-    static mouse = {
+    static mouse: IMouse = {
         position: new Vector2(),
         buttonEvents: [],
         buttons: {}
